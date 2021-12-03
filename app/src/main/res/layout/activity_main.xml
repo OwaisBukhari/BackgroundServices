@@ -6,7 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <Button
+    <EditText
+        android:id="@+id/inputtext"
+        android:layout_width="202dp"
+        android:layout_height="174dp" />
+
+    <Button
        android:id="@+id/start"
        android:text="Start"
        android:layout_width="wrap_content"
